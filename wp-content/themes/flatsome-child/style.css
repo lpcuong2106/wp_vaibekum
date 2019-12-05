@@ -1,0 +1,43 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+}
+
+.home a.remove:before,
+.home a.remove:after {
+    background: url(../flatsome-child/images/icon-remove-product.png) 0 0 no-repeat;
+    left: 8px;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    display: inline-block;
+    content: ''
+}
+
+.woocommerce a.remove:before,
+.woocommerce a.remove:after {
+    background: url(../flatsome-child/images/icon-remove-product.png) 0 0 no-repeat;
+    left: 8px;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    display: inline-block;
+    content: ''
+}
+
+.menu-mega-icon {
+    background-image: url(../flatsome-child/images/menu-cate-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 5px;
+}

@@ -1,0 +1,8 @@
+@import "./medium/general.scss";
+@media (max-width: 767px) {
+    @import "./medium/home";
+}
+
+@media screen and (max-width: 849px) {
+    @import "./medium/849max.scss";
+}

@@ -1,0 +1,9 @@
+.footer-widgets.footer.footer-2 {
+    a {
+        color: #7a7a7a;
+        &:hover {
+            color: $main_color;
+        }
+    }
+    color: #7a7a7a;
+}

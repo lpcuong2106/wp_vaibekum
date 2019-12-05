@@ -1,0 +1,27 @@
+body {
+    font-size: 14px!important;
+}
+
+ul.nav-left {
+    >li {
+        width: auto;
+        margin-right: 5px!important;
+    }
+}
+
+$main_color: #f30000;
+
+/* FEEDBACK CUSTOMER */
+
+.owl-prev.flickity-button.flickity-prev-next-button.previous,
+.owl-next.flickity-button.flickity-prev-next-button.next {
+    width: 20px!important;
+    &:hover {
+        box-shadow: unset!important;
+        background-color: unset!important;
+    }
+}
+
+.chat_btn a {
+    font-size: 10px!important;
+}
